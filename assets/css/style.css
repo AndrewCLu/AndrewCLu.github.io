@@ -1,0 +1,349 @@
+body, html {    /*the outer layer of the site and global style attributes*/
+	font-family: Garamond, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background: white;
+	position: relative;
+	overflow: scroll;
+}
+
+.navbar {
+	font: "Garamond";
+	font-size: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 600;
+	line-height: 2em;
+	position: relative;
+	color: lightgray;
+	top: 2%;
+}
+
+.navbar-button {
+	position: absolute;
+	color: gray;
+
+}
+
+#homebutton:link {
+	left: 10%;
+	color: gray;
+	background-color: transparent;
+    text-decoration: none;
+}
+
+#homebutton:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#aboutbutton:link {
+	left: 35%;
+	color: gray;
+	background-color: transparent;
+    text-decoration: none;
+}
+
+#aboutbutton:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#projectsbutton:link {
+	left: 60%;
+	color: gray;
+	background-color: transparent;
+    text-decoration: none;
+}
+
+#projectsbutton:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#travelbutton:link {
+	left: 85%;
+	color: gray;
+	background-color: transparent;
+    text-decoration: none;
+}
+
+#travelbutton:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#homebody {
+	position: relative;
+	top: 12%;
+	width: 100%;
+}
+
+#homepicture {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	width: 30%;
+	border-radius: 50%;
+}
+
+#introduction {
+	color: black;
+}
+
+#introduction:link {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin: 33% auto 0% auto;
+	font: Garamond;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2em;
+	text-decoration: none;
+	color: black;
+	
+}
+
+#aboutpicture {
+	position: relative;
+	border-radius: 50%;
+	margin-top: 10%;
+	top: 10%;
+	width: 30%;
+	left: 10%;
+	text-align: center;
+}
+
+#aboutbody {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	width: 50%;
+}
+
+.abouttext {
+	font: Garamond;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 500;
+	line-height: 2em;
+	position: relative;
+	text-align: center;
+}
+
+#description {
+	font: Garamond;
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1.2em;
+	position: relative;
+	text-align: center;
+	color: lightgray;
+}
+
+.orglink { 
+	text-decoration: none;
+	color: darkgray; 
+}
+
+.orglink:visited { 
+	text-decoration: none; 
+}
+
+.orglink:hover { 
+	text-decoration: none; 
+	color: gray;
+}
+
+.orglink:focus { 
+	text-decoration: none; 
+}
+
+.orglink:active { 
+	text-decoration: none; 
+	color: black;
+}
+
+#contactlinks {
+	text-align: center;
+}
+
+.contactbutton {
+	position: absolute;
+	height: 9%;
+	width: 5%;
+}
+
+#contactfacebook {
+	left: 37.5%;
+}
+
+#contactemail {
+	left: 47.5%;
+}
+
+#contactlinkedin {
+	left: 57.5%;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    z-index: 2;
+}
+.project {
+	position: absolute;
+    width: 30%;
+    cursor: pointer;
+    margin: 10%;
+    z-index: 3; 
+    color: lightgray;
+}
+
+#project1img {
+	left: 0%;
+	position: absolute;
+    width: 30%;
+    margin: 10%;
+    z-index: 3; 
+    color: lightgray;
+}
+
+#project2img {
+	left: 50%;
+	position: absolute;
+    width: 30%;
+    margin: 10%;
+    z-index: 3; 
+    color: lightgray;
+}
+
+#project1 {
+	left: 0%;
+	margin-top: 40%;
+	font: Garamond;
+	font-size: 1.25em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1.2em;
+	text-align: center;
+	color: gray;
+}
+
+#project2 {
+	left: 50%;
+	margin-top: 40%;
+	font: Garamond;
+	font-size: 1.25em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1.2em;
+	text-align: center;
+	color: gray;
+}
+
+.projectoverlay { 
+    height: 100%; 
+    width: 100%; 
+    position: absolute; 
+    z-index: -1; 
+    opacity: 0;
+}
+
+#proj1header {
+	font: Garamond;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 500;
+	line-height: 2em;
+	position: relative;
+	text-align: center;
+	top: 2.5%;
+}
+
+#proj1img {
+	left: 15%;
+	position: absolute;
+	width: 30%;
+	top: 20%;
+}
+
+#proj1desc {
+	font: Garamond;
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1.2em;
+	position: relative;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	width: 40%;
+	color: gray;
+}
+
+#proj2header {
+	font: Garamond;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 500;
+	line-height: 2em;
+	position: relative;
+	text-align: center;
+	top: 2.5%;
+}
+
+#proj2img {
+	left: 15%;
+	position: absolute;
+	width: 30%;
+	top: 20%;
+}
+
+#proj2desc {
+	font: Garamond;
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1.2em;
+	position: relative;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	width: 40%;
+	color: gray;
+}
+
+.active { 
+    opacity: 1;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    z-index: 5;	
+    top: 10%;
+    background: lightgray;
+    transition: .2s;
+} 
+
+.inactive { 
+    opacity: 0.6;
+    box-shadow: none;
+}
+

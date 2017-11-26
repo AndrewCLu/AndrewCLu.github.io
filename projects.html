@@ -2,17 +2,32 @@
 <html>
 <head>
 	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<div class="navbar">
-		<div id="homebutton">Home</div>
-		<div id="aboutbutton">About</div>
-		<div id="projectsbutton">Projects</div>
-		<div id="travelbutton">Travel</div>
+		<a class="navbar-button" id="homebutton" href="home.html">Home</a>
+		<a class="navbar-button" id="aboutbutton" href="about.html">About</a>
+		<a class="navbar-button" id="projectsbutton" href="projects.html">Projects</a>
+		<a class="navbar-button" id="travelbutton" href="travel.html">Travel</a>
 	</div>
-	<div class="project">PROJECT 1</div>
-	<div class="project">PROJECT 2</div>
-	<div class="project">PROJECT 3</div>
-	<div class="project">PROJECT 4</div>
+	<div class="projectoverlay inactive" id="project1full">
+		<div id="proj1header">Autonomous Laundry Bot</div>
+		<img id="proj1img" src="assets/img/baxter.jpeg" width="200" height="400" alt="Project 1">
+		<p id="proj1desc">This project was designed to create a software framework allowing our Baxter Research Robot to automatically perform a full laundry cycle, which includes the tasks of putting clothes into a basket, moving the basket over to a washing machine, removing the clothes into a basket, then folding the clothes on a table. I focused on the image recognition capabilites of the robot, designing a Convolutional Neural Net allowing the robot to perceive the relative positions of objects in its environment.</p>
+	</div>
+	<div class="projectoverlay inactive" id="project2full">
+		<div id="proj2header">Physical Rehabilitation Monitor</div>
+		<img id="proj2img" src="assets/img/bio.png" width="200" height="400" alt="Project 2">
+		<p id="proj2desc">In partner with several hospitals and physician's clinics, this project was designed to create software that gives physicians the opportunity to treat their patients remotely. Our approach was to use skeletal data read in from Kinect SDK cameras to monitor vital human behaviors, such as gait speed and joint angles. I helped design the software that takes in human data from the cameras and outputs possible risk factors, obtained using past research data.</p>
+	</div>
+	<div class ="main">
+		<img id="project1img" src="assets/img/baxter.jpeg" width="200" height="400" alt="Project 1">
+		<img id="project2img" src="assets/img/bio.png" width="200" height="400" alt="Project 2">
+		<div class="project" id="project1">Autonomous Laundry Bot</div>
+		<div class="project" id="project2">Physical Rehabilitation Monitor</div>
+	</div>
 </body>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"> </script> 
+<script src="assets/js/script.js"></script>
 </html>
