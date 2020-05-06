@@ -3,7 +3,11 @@ import './NavigationBar.css';
 
 class NavigationBar extends React.Component {
     render() {
-        return super.render();
+        return (
+            <div>
+                NavBar
+            </div>
+        )
     }
 }
 

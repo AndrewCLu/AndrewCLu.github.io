@@ -3,7 +3,11 @@ import './TravelLandingPage.css';
 
 class TravelLandingPage extends React.Component {
     render() {
-        return super.render();
+        return (
+            <div>
+                Travel Stuff
+            </div>
+        )
     }
 }
 

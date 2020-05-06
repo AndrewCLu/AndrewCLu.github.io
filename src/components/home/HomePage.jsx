@@ -3,7 +3,11 @@ import './HomePage.css';
 
 class HomePage extends React.Component {
     render() {
-        return super.render();
+        return (
+            <div>
+                Home
+            </div>
+        )
     }
 }
 

@@ -3,7 +3,11 @@ import './WorkLandingPage.css';
 
 class WorkLandingPage extends React.Component {
     render() {
-        return super.render();
+        return (
+            <div>
+                Work Stuff
+            </div>
+        )
     }
 }
 

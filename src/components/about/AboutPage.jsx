@@ -3,7 +3,11 @@ import './AboutPage.css';
 
 class AboutPage extends React.Component {
     render() {
-        return super.render();
+        return (
+            <div>
+                About
+            </div>
+        )
     }
 }
 
